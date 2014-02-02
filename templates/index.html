@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Convert to zyTool</title>
+    </head>
+
+    <body>
+        <p>Note: All images are expected to be in the images/pics/ directory.</p>
+        <form action="" method="POST">
+            Name of zyTool: <input type="text" name="toolName"/>
+            <br/>
+            <br/>
+            Paste in all the zyTool's CSS rules that are between &lt;style&gt; tags (without the &lt;style&gt; tags):
+            <br/>
+            <textarea name="cssText" rows="10" cols="100"></textarea>
+            <br/>
+            <br/>
+            Paste in all the zyTool's JavaScript code (without the &lt;script&gt; tags):
+            <br/>
+            <textarea name="jsText" rows="10" cols="100"></textarea>
+            <br/>
+            <br/>
+            Paste in all the zyTool's HTML inside the &lt;body&gt; tags (except the CSS rules and JavaScript code):
+            <br/>
+            <textarea name="htmlText" rows="10" cols="100"></textarea>
+            <br/>
+            <br/>
+            <input type="submit" value="Convert to zyTool">
+        </form>
+    </body>
+</html>
+
+<!--<title>Hello from Flask</title>
+{% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello World!</h1>
+{% endif %}-->
